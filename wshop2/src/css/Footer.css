@@ -1,0 +1,33 @@
+.upper {
+    background-color: rgba(37, 38, 39, 0.623);
+    color: rgba(253, 255, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .5px solid red;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: rgba(37, 38, 39, 0.623);
+    color: rgba(253, 255, 252);
+    height: 1vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: row;
+    border: .5px solid red;
+  }
+
+.footerbox {
+    display: flex;
+    width: 50%;
+    /* border: 3px solid red; */
+    flex-direction: row;
+}
+
+.rtl {
+    direction: rtl;
+}
