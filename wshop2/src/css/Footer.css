@@ -1,3 +1,4 @@
+
 .upper {
     background-color: rgba(22, 13, 14);
     color: rgba(253, 255, 252);
@@ -66,4 +67,37 @@
 
 .rtl {
     direction: rtl;
+}
+
+
+@media (max-width: 768px) {
+    
+    .infocaption{
+        font-size: 0.9em;
+        /* border: .5px solid red; */
+    }
+
+    .extrainfo{
+        font-size: 0.8em;
+        color: rgb(211, 214, 209);
+        letter-spacing: 0.05vw;
+        font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+    }
+    .row1{
+        flex-basis: 50%;
+        align-self: start;
+        text-align: left;
+        /* border: .5px solid red; */
+    }
+    .row2{
+        flex-basis: 10%;
+        align-self: start;
+        /* border: .5px solid red; */
+    }
+    .row3{
+        flex-basis: 40%;
+        align-self: start;
+        text-align: left;
+    }
+    
 }

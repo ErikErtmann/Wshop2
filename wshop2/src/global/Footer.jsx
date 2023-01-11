@@ -6,9 +6,9 @@ function Footer() {
       <div className="upper">
         <div className="row1">
           <div className="infocaption">Võta meiega ühendust</div>
-          <br/>
-          <div className="extrainfo">Email: jammieesti@gmail.com</div>
-          <div className="extrainfo">Facebook: Jämmi</div>
+            <br/>
+            <div className="extrainfo">Email: jammieesti@gmail.com</div>
+            <div className="extrainfo">Facebook: Jämmi</div>
         </div>
         <div className="row2"></div>
         <div className="row3">
