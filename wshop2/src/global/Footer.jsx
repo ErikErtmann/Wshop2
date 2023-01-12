@@ -20,18 +20,18 @@ function Footer() {
 
         </div>
       </div>
-      {/* <div className="footer">
+      <div className="footer">
         <div className="footerbox">
           <div className="extrainfo">
             Copyright @ 2023 Erik Ertmann
           </div>
         </div>
+        <div className="row2"></div>
         <div className="footerbox rtl">
           <div className="extrainfo">
-            Jämmi corp
           </div>
         </div>
-      </div> */}
+      </div>
     </div>  
     );
 }

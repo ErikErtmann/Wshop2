@@ -1,10 +1,14 @@
 import "../css/HomePage.css";
 import Gallery from "../components/Gallery";
+import BackgroundVideo from "../assets/videoBG.mp4"
+
 
 function HomePage() {
     return (
     <div className="Content">
-
+        {/* <div className="videovärk">
+            <video src={BackgroundVideo} autoPlay loop muted/>
+        </div> */}
       <div className="UpperBox">
         <div className="LogoAndName">
           <img className="logo" src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.15752-9/322269394_1825245277825651_8445673729527555287_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=UOs8Pdk9rKIAX9EcZ8c&_nc_ht=scontent-arn2-1.xx&oh=03_AdR2-yZbpeoCwDtDWhBP3jrVxcVobaKgQE0v1eB6e36dZA&oe=63E602DD" alt="ERROR"/>
@@ -17,6 +21,9 @@ function HomePage() {
         </div>
       </div> 
       <div className="SentenceBox">
+        <div className="videovärk">
+            <video src={BackgroundVideo} autoPlay loop muted/>
+        </div>
         <div className="SentenceFont">
             "Jämmi järgib põhjamaist disaini ning loob armastusega valmistatud unikaalseid 
             tooteid. Jämmi toodetega toetad kodumaist käsitööd ning aitad tõestada, et stiil 

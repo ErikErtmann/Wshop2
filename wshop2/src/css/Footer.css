@@ -60,13 +60,17 @@
 
 .footerbox {
     display: flex;
-    width: 46.6%;
+    width: 33%;
     /* border: 3px solid red; */
     flex-direction: row;
+    font-size: .7em;
 }
 
 .rtl {
-    direction: rtl;
+    /* direction: rtl; */
+    width: 33%;
+    align-items: center;
+    text-align: left;
 }
 
 
@@ -99,5 +103,33 @@
         align-self: start;
         text-align: left;
     }
+
+    .footerbox {
+        display: flex;
+        width: 50%;
+        font-size: 0.6em;
+        /* border: 3px solid red; */
+        flex-direction: row;
+    }
     
+}
+
+@media (min-device-height: 1200px) {
+
+    .infocaption{
+        font-size: 2.5em;
+    }
+    
+    .extrainfo{
+        font-size: 1.5em;
+    }
+    
+    .footer {
+        height: 0vw;
+        padding-top: 0vw;
+      }
+
+    .footerbox {
+        font-size: .8em;
+    }
 }
